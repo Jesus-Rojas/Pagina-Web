@@ -1,0 +1,43 @@
+.alto{
+    height: 100px;
+}
+.hero{
+    height: 570px;
+}
+.sombra{
+    text-shadow: 5px 5px 9px black;
+}
+.testimonials{
+    height: 590px;
+    background: black;
+}
+.imagen{
+    overflow: hidden;
+    background-image: url("../img/technology-785742_1920.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sesgo-r{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 15vh 0 0 100vw;
+    border-style: solid;
+    border-color: transparent transparent transparent white;
+}
+.sesgo-l{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: black;
+    border-width: 15vh 100vw 0 0;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}
+.features{
+    height: 540px;
+}
+.hot-it-works{
+    height: 600px;
+}
