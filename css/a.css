@@ -8,7 +8,8 @@
     text-shadow: 5px 5px 9px black;
 }
 .testimonials{
-    height: 590px;
+    width: 100vw;
+    height: 640px;
     background: black;
 }
 .imagen{
@@ -40,4 +41,16 @@
 }
 .hot-it-works{
     height: 600px;
+}
+#google_translate_element{
+    z-index: 1030;
+    position: fixed;
+    top: 38px;
+    left: 165px;
+}
+.skiptranslate > iframe {
+    display: none;
+}
+body{
+    top: 0 !important;
 }
