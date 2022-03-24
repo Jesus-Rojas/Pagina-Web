@@ -9,7 +9,8 @@
 }
 .testimonials{
     width: 100vw;
-    height: 640px;
+    /* height: 640px; */
+    padding-bottom: 5rem;
     background: black;
 }
 .imagen{
@@ -53,4 +54,22 @@
 }
 body{
     top: 0 !important;
+}
+.main-footer-icons {
+    width: 80px;
+    height: 80px;
+}
+
+.bg-verde {
+    background-color: #00af50;
+}
+
+.main-footer-icons span {
+    line-height: 75px;
+    font-size: 1.5rem;
+    color: #220000;
+}
+
+.bg-yellow {
+    background-color: #ffc000;
 }
